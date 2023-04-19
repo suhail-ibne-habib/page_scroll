@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css"> -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="blocks">
+
+    <div class="block init" data-block-section="1" data-href="home">
+      <div class="block__title">home</div>
+      <div class="block__number">1</div>
+    </div>
+    <div class="block init" data-block-section="2" data-href="collection">
+      <div class="block__title">Collection</div>
+      <div class="block__number">2</div>
+    </div>
+    <div class="block init" data-block-section="3" data-href="material">
+      <div class="block__title">Material</div>
+      <div class="block__number">3</div>
+    </div>
+    <div class="block init" data-block-section="4" data-href="production">
+      <div class="block__title">Production</div>
+      <div class="block__number">4</div>
+    </div>
+    <div class="block init" data-block-section="5" data-href="journal">
+      <div class="block__title">journal</div>
+      <div class="block__number">5</div>
+    </div>
+
+  </div>
+
+  <main data-scroll-container>
+
+    <div class="wrap" data-scroll-section>
+
+      <section class="section home" data-block-section="1" id="home">
+          Lorem ipsum dolor<br>sit amet consectetur<br>adipisicing elit.<br> Aspernatur, debitis.
+      </section>
+      <section class="section collection" data-block-section="2" id="collection">
+          Lorem ipsum dolor<br>sit amet consectetur<br>adipisicing elit.<br> Aspernatur, debitis.
+      </section>
+      <section class="section material" data-block-section="3" id="material">
+        Lorem ipsum dolor<br>sit amet consectetur<br>adipisicing elit.<br> Aspernatur, debitis.
+      </section>
+      <section class="section production" data-block-section="4" id="production">
+        Lorem ipsum dolor<br>sit amet consectetur<br>adipisicing elit.<br> Aspernatur, debitis.
+      </section>
+      <section class="section johomeurnal" data-block-section="5" id="journal">
+        Lorem ipsum dolor<br>sit amet consectetur<br>adipisicing elit.<br> Aspernatur, debitis.
+      </section>
+
+    </div>
+
+  </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
