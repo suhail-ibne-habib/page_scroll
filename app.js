@@ -2,6 +2,10 @@ const scroll = new LocomotiveScroll({
     el: document.querySelector("[data-scroll-container]"),
     smooth: true,
     direction: "horizontal",
+    smartphone: {
+      smooth: true,
+      direction: "horizontal",
+    },
   });
 
   let blocks = document.querySelectorAll(".block[data-block-section]");
